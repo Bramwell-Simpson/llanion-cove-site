@@ -1,4 +1,4 @@
-$(window).on('resize', function() {
+$(window).on('load', function() {
     if($(window).width() > 768) {
         // $('#footer-left').toggleClass("u-justify-flex-end");
         // $('#footer-right').toggleClass("u-justify-flex-start");
