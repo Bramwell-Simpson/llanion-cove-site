@@ -17,10 +17,9 @@
 </head>
 <body>
     
-    <!-- Navbar -->
     <header class="header header-fixed unselectable header-animated header-dark">
         <div class="header-brand">
-            <div class="nav-item no-hover">
+            <div class="nav-item no-hover mobile-nav">
                 <a href="index.html#top">
                     <h3 class="title">Llanion Cove</h3> 
                 </a>
@@ -34,13 +33,13 @@
 
         <div class="header-nav text-dark" id="header-menu">
             <div class="nav-right"> 
-                <div class="nav-item text-center">
+                <div class="nav-item text-center mobile-nav">
                     <a href="index.html#about" class="text-lg">Who We Are</a>
                 </div>
-                <div class="nav-item text-center">
+                <div class="nav-item text-center mobile-nav">
                     <a href="index.html#facilities" class="text-lg">Facilities</a>
                 </div>
-                <div class="nav-item text-center">
+                <div class="nav-item text-center mobile-nav">
                     <a href="index.html#activities" class="text-lg">Activities</a>
                 </div>
             </div> 
@@ -106,5 +105,39 @@
             </div>
         </div>
     </section>
+
+    <footer class="footer m-0">
+        <h6 class="footer__title text-white">Llanion Cove &copy; 2023</h6>
+
+        <div class="content">
+            <div class="row">
+                <div class="col-4">
+                    <h6 class="text-white">Contact Us</h6>
+                    <ul class="no-bullets">
+                        <li class="footer__list-item">{Email Here}</li>
+                        <li class="footer__list-item">{Phone Numbers Here}</li>
+                        <li class="footer__list-item">{Location Here}</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <a class="footer__list_item fa-5x" href="#"><i class="fab fa-facebook-square mx-2" style="color: #ffff"></i></a>
+                    <a class="footer__list_item fa-5x" href="#"><i class="fab fa-instagram-square mx-2" style="color: #ffff"></i></a>
+                </div>
+                <div class="col-4">
+                    <ul class="no-bullets">
+                        <li class="footer__list-item"><a href="">Home</a></li>
+                        <li class="footer__list-item"><a href="">Who We Are</a></li>
+                        <li class="footer__list-item"><a href="">Facilities</a></li>
+                        <li class="footer__list-item"><a href="">Activities</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="./src/js/colSwitch.js"></script>
+    <script src="./src/js/navbarDropdown.js"></script>
 </body>
 </html>
