@@ -5,7 +5,7 @@ $('#header-btn').on('click', function(e) {
 });
 
 // Hide menu after clicking menu item
-$('.dropdown-menu li').on('click', function(e) {
+$('div .mobile-nav').on('click', function(e) {
      $('#header-menu').removeClass('active');
      $('.nav-btn').removeClass('active');
 });
