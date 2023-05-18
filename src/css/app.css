@@ -3,7 +3,7 @@ body, html {
 }
 
 #splash-img {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://source.unsplash.com/6NwrVDNsTx4");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../media/images/cove-transformed.jpeg");
 }
 
 #activity-splash-img {
@@ -39,4 +39,5 @@ body, html {
 /*
     en-5xoYnjTE
 
+    Main page BG placeholder - "https://source.unsplash.com/6NwrVDNsTx4"
 */
