@@ -36,6 +36,10 @@ body, html {
     flex-shrink: 0;
 }
 
+.accom-img-small {
+    max-height: 516px;
+}
+
 /*
     en-5xoYnjTE
 
